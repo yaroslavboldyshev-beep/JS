@@ -1,0 +1,13 @@
+p {
+  font-weight: 700;
+}
+
+.keuze {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.verborgen {
+  display: none;
+}

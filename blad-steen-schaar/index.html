@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl-BE">
   <head>
-    <script src="index.js" type="module" defer></script>
+    <script src="index.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
@@ -9,11 +9,19 @@
   </head>
   <body>
     <p>Uw keuze</p>
-    <button aria-label="blad"><img src="afbeeldingen/blad.svg" /></button>
-    <button aria-lebel="steen"><img src="afbeeldingen/steen.svg" /></button>
-    <button aria-labelledby="schaar">
-      <img src="afbeeldingen/schaar.svg" />
+    <button id="blad" aria-label="blad" class="keuze">
+      <img src="afbeeldingen/blad.svg" alt="blad" />
     </button>
-    <p>De keuze van de computer</p>
+    <button id="steen" aria-label="steen" class="keuze">
+      <img src="afbeeldingen/steen.svg" alt="steen" />
+    </button>
+    <button id="schaar" aria-label="schaar" class="keuze">
+      <img src="afbeeldingen/schaar.svg" alt="schaar" />
+    </button>
+    <div id="resultaatWikkel" class="verborgen">
+      <p id="computerKeuze">De keuze van de computer</p>
+      <p>Winnar: <span id="winnar"></span></p>
+      <button id="opnieuw">Opnieuw</button>
+    </div>
   </body>
 </html>
