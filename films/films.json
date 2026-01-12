@@ -1,0 +1,272 @@
+[
+    {
+        "titel": "Elysium",
+        "beschrijving": "We bevinden ons in het jaar 2159 en de mensheid is verdeeld in twee sociale klassen. De allerrijksten leiden een heerlijk zorgeloos leven op het ongerepte ruimtestation Elysium, terwijl de armen moeten zien te overleven op de overbevolkte en verwoeste Aarde.",
+        "cast": [
+            "Matt Damon",
+            "Jodie Foster",
+            "Otto Olso"
+        ],
+        "foto": "Elysium_FO.jpg",
+        "genres": [
+            "Science Fiction",
+            "Action"
+        ],
+        "rating": 3,
+        "regisseurs": [
+            "Neil Blomkamp"
+        ]
+    },
+    {
+        "titel": "Les visiteurs",
+        "beschrijving": "A medieval nobleman and his squire are accidentally transported to contemporary times by a senile sorcerer. He enlists the aid of his descendent to try to find a way to return home",
+        "cast": [
+            "Jean Reno",
+            "Christian Clavier"
+        ],
+        "foto": "lesvisiteurs.jpg",
+        "genres": [
+            "Comedy",
+            "History"
+        ],
+        "rating": 3,
+        "regisseurs": [
+            "Jean-Marie Poiré"
+        ]
+    },
+    {
+        "titel": "Pulp Fiction",
+        "beschrijving": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "cast": [
+            "John Travolta",
+            "Uma Thurman"
+        ],
+        "foto": "pulpfiction.jpg",
+        "genres": [
+            "Crime",
+            "Action"
+        ],
+        "rating": 5,
+        "regisseurs": [
+            "Quentin Tarantino"
+        ]
+    },
+    {
+        "titel": "Le fabuleux destin d'Amelie Poulain",
+        "beschrijving": "Amelie, an innocent and naive girl in Paris, with her own sense of justice, decides to help those around her and along the way, discovers love.",
+        "cast": [
+            "Audrey Tautou"
+        ],
+        "foto": "ameliepoulain.jpg",
+        "genres": [
+            "Romance",
+            "Comedy"
+        ],
+        "rating": 4,
+        "regisseurs": [
+            "Jean-Pierre Jeunet"
+        ]
+    },
+    {
+        "titel": "Alien",
+        "beschrijving": "The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.",
+        "cast": [
+            "Sigourney Weaver"
+        ],
+        "foto": "alien.jpg",
+        "genres": [
+            "Horror",
+            "Science Fiction"
+        ],
+        "rating": 4,
+        "regisseurs": [
+            "Ridley Scott"
+        ]
+    },
+    {
+        "titel": "The Lord of the Rings: The Fellowship of the Ring",
+        "beschrijving": "A meek hobbit of The Shire and eight companions set out on a journey to Mount Doom to destroy the One Ring and the dark lord Sauron.",
+        "cast": [
+            "Elijah Wood",
+            "Ian McKellen",
+            "Orlando Bloom",
+            "Viggo Mortensen",
+            "Sean Bean",
+            "Hugo Weaving"
+        ],
+        "foto": "lordoftherings.jpg",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Horror"
+        ],
+        "rating": 5,
+        "regisseurs": [
+            "Peter Jackson"
+        ]
+    },
+    {
+        "titel": "The Big Lebowski",
+        "beschrijving": "Dude Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+        "cast": [
+            "Jeff Bridges",
+            "John Goodman",
+            "Julianne Moore"
+        ],
+        "foto": "thebiglebowski.jpg",
+        "genres": [
+            "Comedy"
+        ],
+        "rating": 4,
+        "regisseurs": [
+            "Joel Coen",
+            "Ethan Coen"
+        ]
+    },
+    {
+        "titel": "Once upon a Time in the West",
+        "beschrijving": "Epic story of a mysterious stranger with a harmonica who joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+        "cast": [
+            "Henry Fonda",
+            "Charles Bronson",
+            "Claudia Cardinale"
+        ],
+        "foto": "onceuponatimeinthewest.jpg",
+        "genres": [
+            "Western",
+            "Crime",
+            "Action"
+        ],
+        "rating": 3,
+        "regisseurs": [
+            "Sergio Leone"
+        ]
+    },
+    {
+        "titel": "The Hobbit, the desolation of Smaug",
+        "beschrijving": "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from the dragon Smaug.",
+        "cast": [
+            "Elijah Wood",
+            "Ian McKellen",
+            "Ken Scott",
+            "Martin Freeman",
+            "Richard Armitage",
+            "Hugo Weaving"
+        ],
+        "foto": "thehobbit.jpg",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Horror"
+        ],
+        "rating": 4,
+        "regisseurs": [
+            "Peter Jackson"
+        ]
+    },
+    {
+        "titel": "Spectre",
+        "beschrijving": "Bond's loyalty to M is tested when her past comes back to haunt her. Whilst MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
+        "cast": [
+            "Daniel Craig",
+            "Stephanie Sigman",
+            "Monica Belluci",
+            "Ralph Fiennes",
+            "Lea Seydoux"
+        ],
+        "foto": "spectre.jpg",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Spy"
+        ],
+        "rating": 4,
+        "regisseurs": [
+            "Sam Mendez"
+        ]
+    },
+    {
+        "titel": "No country for old men",
+        "beschrijving": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+        "cast": [
+            "Tommy Lee Jones",
+            "Javier Bardem",
+            "Josh Brolin",
+            "Kelly MacDonald"
+        ],
+        "foto": "nocountryforoldmen.jpg",
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 4,
+        "regisseurs": [
+            "Ethan Coen",
+            "Joel Coen"
+        ]
+    },
+    {
+        "titel": "The Martian",
+        "beschrijving": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.",
+        "cast": [
+            "Matt Damon",
+            "Kate Mare",
+            "Jessica Chastain",
+            "Sean Bean"
+        ],
+        "foto": "themartian.jpg",
+        "genres": [
+            "Science Fiction",
+            "Adventure",
+            "Action"
+        ],
+        "rating": 4,
+        "regisseurs": [
+            "Ridley Scott"
+        ]
+    },
+    {
+        "titel": "Cowboys and Aliens",
+        "beschrijving": "A spaceship arrives in Arizona, 1873, to take over the Earth, starting with the Wild West region. A posse of cowboys and natives are all that stand in their way.",
+        "cast": [
+            "Daniel Craig",
+            "Harisson Ford",
+            "Olivia Wilde"
+        ],
+        "duur": "2u 10min",
+        "foto": "cowboysandaliens.jpg",
+        "genres": [
+            "Science Fiction",
+            "Western",
+            "Action"
+        ],
+        "rating": 5,
+        "regisseurs": [
+            "Jon Favreau"
+        ]
+    },
+    {
+        "titel": "Monsters, Inc",
+        "beschrijving": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think.",
+        "cast": [
+            "Daniel Craig",
+            "Harisson Ford",
+            "Olivia Wilde"
+        ],
+        "duur": "1u 32min",
+        "foto": "monstersinc.jpg",
+        "genres": [
+            "Animation",
+            "adventure",
+            "Comedy",
+            "Children"
+        ],
+        "rating": 4,
+        "regisseurs": [
+            "Pete Doctor",
+            "David Silvermand",
+            "Lee Unkrich"
+        ]
+    }
+]
