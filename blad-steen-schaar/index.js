@@ -1,9 +1,6 @@
 "use strict";
 const knoppen = document.querySelectorAll(".keuze");
-const winnarEl = document.getElementById("winnar");
 const opnieuwBtn = document.getElementById("opnieuw");
-const resultaatWikkelEl = document.getElementById("resultaatWikkel");
-const computerKeuzeRefEl = document.getElementById("computerKeuze");
 
 let gebruikerKeuze;
 let computerKeuze;
@@ -31,19 +28,22 @@ const computerKeuzeMaken = () => {
   const index = Math.floor(Math.random() * 3);
   computerKeuze = knoppen[index].id;
 
-  const afbeelding = document.createElement("img");
+  const afbeelding = document.getElementById("afbeelding");
   afbeelding.src = `afbeeldingen/${computerKeuze}.svg`;
   afbeelding.alt = computerKeuze;
 
-  resultaatWikkelEl.classList.remove("verborgen");
-  computerKeuzeRefEl.insertAdjacentElement("afterend", afbeelding);
-
   const winnar = winnarWinden();
 
+  const winnarEl = document.getElementById("winnar");
   winnarEl.textContent = winnar;
+
+  const resultaatWikkelEl = document.getElementById("resultaatWikkel");
+  resultaatWikkelEl.classList.remove("verborgen");
 };
 
 const verwerkKlik = (e) => {
+  if (gebruikerKeuze) return;
+
   gebruikerKeuze = e.currentTarget.id;
   knoppenVerbergen();
   computerKeuzeMaken();
