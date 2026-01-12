@@ -22,6 +22,7 @@ td {
 
 .profile-pic {
   border-radius: 50%;
+  width: 60px;
 }
 
 .active {

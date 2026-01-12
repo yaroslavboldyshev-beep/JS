@@ -2,7 +2,12 @@
 
 const tableBody = document.getElementById("table-body");
 const buttons = document.querySelectorAll("button");
-const data = await fetch("./geslachten.json").then((res) => res.json());
+const data = await fetch("./geslachten.json")
+  .then((res) => res.json())
+  .catch((e) => {
+    console.error(e);
+    alert("Fout bij het laden van gegevens.");
+  });
 
 const getIcon = (gender) => {
   switch (gender) {
@@ -32,7 +37,6 @@ const renderTable = (rows) => {
       <img
         src="images/${foto}"
         alt="Foto van ${voornaam} ${familienaam}"
-        width="60"
         class="profile-pic"
       />
     </td>
