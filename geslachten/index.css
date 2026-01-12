@@ -1,0 +1,32 @@
+button {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: darkmagenta;
+  margin: 8px;
+  padding: 4px;
+}
+
+td,
+th {
+  padding: 4px;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.active {
+  color: green;
+  scale: 1.2;
+  transition: scale 300ms ease;
+}
