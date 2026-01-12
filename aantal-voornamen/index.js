@@ -1,17 +1,15 @@
 "use strict";
 
-const list = document.getElementById("list");
 const form = document.getElementById("form");
-const input = document.getElementById("name");
 
 const names = {};
 
 const handleSubmit = (e) => {
+  const input = document.getElementById("name");
+
   e.preventDefault();
 
   const name = input.value.trim();
-
-  if (name === "") return;
 
   if (names[name]) {
     names[name]++;
@@ -21,9 +19,11 @@ const handleSubmit = (e) => {
 
   renderList();
   input.value = "";
+  input.focus();
 };
 
 const renderList = () => {
+  const list = document.getElementById("list");
   list.innerHTML = "";
 
   for (const name in names) {
