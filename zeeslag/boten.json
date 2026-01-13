@@ -1,0 +1,27 @@
+[
+    {
+        "naam": "vliegdekschip",
+        "lengte": 5,
+        "afbeelding": "groeneBoot.png"
+    },
+    {
+        "naam": "slagschip",
+        "lengte": 4,
+        "afbeelding": "rodeBoot.png"
+    },
+    {
+        "naam": "onderzeeër",
+        "lengte": 3,
+        "afbeelding": "geleBoot.png"
+    },
+    {
+        "naam": "torpedo",
+        "lengte": 3,
+        "afbeelding": "oranjeBoot.png"
+    },
+    {
+        "naam": "patrouille",
+        "lengte": 2,
+        "afbeelding": "blauweBoot.png"
+    }
+]
