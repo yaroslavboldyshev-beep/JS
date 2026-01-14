@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <script src="index.js" type="module"></script>
+    <title>Kaas</title>
+    <link rel="icon" href="kaas.ico" />
+    <link rel="stylesheet" href="kaas.css" />
+  </head>
+
+  <body>
+    <img id="banner" src="kaas.jpg" alt="kaas" />
+    <h1>Bestelling</h1>
+    <form id="form">
+      <label
+        >Kaas: <span id="product-err" class="fout hidden"></span>
+        <select id="kaas">
+          <option value="">--- maak je keuze ---</option>
+        </select>
+      </label>
+      <label
+        >Aantal: <span id="amount-err" class="fout hidden"></span>
+        <input id="aantal" type="number" />
+      </label>
+      <button id="toevoegen">Toevoegen aan mandje</button>
+    </form>
+    <table id="mandjeTable" hidden>
+      <thead>
+        <tr>
+          <th>Kaas</th>
+          <th>Aantal</th>
+          <th>Prijs</th>
+          <th>Te betalen</th>
+          <th><!-- voor vuilbak --></th>
+        </tr>
+      </thead>
+      <tbody id="mandjeBody"></tbody>
+      <tfoot>
+        <tr>
+          <td>Totaal</td>
+          <td colspan="3" id="totaal">0</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+    <div id="kazenProblem" hidden class="fout">Probleem om kazen te lezen.</div>
+  </body>
+</html>
