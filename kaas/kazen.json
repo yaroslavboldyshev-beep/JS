@@ -1,0 +1,27 @@
+[
+    {
+        "id": 123,
+        "naam": "Gouda",
+        "prijs": 0.95
+    },
+    {
+        "id": 468,
+        "naam": "Brie",
+        "prijs": 0.87
+    },
+    {
+        "id": 579,
+        "naam": "Pecorino",
+        "prijs": 0.92
+    },
+    {
+        "id": 146,
+        "naam": "Chedar",
+        "prijs": 0.81
+    },
+    {
+        "id": 257,
+        "naam": "Feta",
+        "prijs": 0.91
+    }
+]
