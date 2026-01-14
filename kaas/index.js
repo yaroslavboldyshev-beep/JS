@@ -42,6 +42,8 @@ function validateForm(productId, amount) {
 
   if (amount < 1) {
     showError("amount-err", "Minstens 1");
+  } else if (amount > 100) {
+    showError("amount-err", "Maximaal 100");
   } else {
     hideError("amount-err");
   }
@@ -70,6 +72,28 @@ function handleDelete(productId) {
 
     updateTotal();
     updateTableVisibility();
+  };
+}
+
+function changeAmount(productId, amount) {
+  return function handler() {
+    const cartItem = cart.find((el) => el.id == productId);
+    cartItem.amount += amount;
+    const newTotal = cartItem.amount * cartItem.price;
+
+    if (cartItem.amount < 1) {
+      handleDelete(productId)();
+      return;
+    }
+
+    const row = document.getElementById(productId);
+    const amountEl = row.querySelector(".amount");
+    const totalEl = row.querySelector(".total");
+
+    amountEl.textContent = cartItem.amount;
+    totalEl.textContent = newTotal.toFixed(2);
+
+    updateTotal();
   };
 }
 
@@ -105,6 +129,8 @@ function addToCart(productId, amount) {
     const totalEl = document.createElement("td");
     const deleteEl = document.createElement("td");
     const deleteBtn = document.createElement("button");
+    const increaseAmountBtn = document.createElement("button");
+    const decreaseAmountBtn = document.createElement("button");
 
     nameEl.textContent = name;
     amountEl.textContent = amount;
@@ -116,8 +142,22 @@ function addToCart(productId, amount) {
     deleteBtn.addEventListener("click", handleDelete(productId));
     deleteBtn.ariaLabel = `${name} verwijderen`;
     deleteBtn.type = "button";
-    deleteEl.classList.add("delete-btn-wrapper");
-    deleteEl.appendChild(deleteBtn);
+    deleteBtn.classList.add("delete-btn");
+    deleteEl.classList.add("btn-wrapper");
+
+    increaseAmountBtn.textContent = "+";
+    increaseAmountBtn.type = "button";
+    increaseAmountBtn.classList.add("change-amount-btn");
+    increaseAmountBtn.addEventListener("click", changeAmount(productId, 1));
+    increaseAmountBtn.ariaLabel = `aantal ${name} verhogen`;
+
+    decreaseAmountBtn.textContent = "-";
+    decreaseAmountBtn.type = "button";
+    decreaseAmountBtn.classList.add("change-amount-btn");
+    decreaseAmountBtn.addEventListener("click", changeAmount(productId, -1));
+    decreaseAmountBtn.ariaLabel = `aantal ${name} verminderen`;
+
+    deleteEl.append(deleteBtn, increaseAmountBtn, decreaseAmountBtn);
 
     const tableRow = document.createElement("tr");
     tableRow.id = productId;
